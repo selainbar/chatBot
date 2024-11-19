@@ -5,7 +5,7 @@ import { MainContainer, ChatContainer, MessageList, Message, MessageInput, Typin
 import { OpenAI } from 'openai';
 import axios from 'axios';
 
-const API_KEY = "";
+const API_KEY= "";
 
 const systemMessage = {"role": "system", "content": "Explain things like you're talking to a software professional with 2 years of experience."
 }
